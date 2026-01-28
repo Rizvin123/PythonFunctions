@@ -5,7 +5,13 @@ def adder(a, b):
     """Takes two integers and adds them together"""
     return a + b
 
-RESULT = adder(5,8)
+def sub(a, b):
+    """Takes two integers and substract them"""
+    return a-b
+
+RESULT1 = adder(5,8)
+RESULT2 = sub(5,8)
 
 """Prints the result"""
-print(RESULT)
+print(RESULT1)
+print(RESULT2)
