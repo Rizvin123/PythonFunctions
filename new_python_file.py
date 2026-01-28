@@ -12,6 +12,7 @@ def sub(a, b):
 def mult(a, b):
     """Takes two integers and multiplies them"""
     return a*b
+
 def div(a, b):
     """Takes two integers and returns their quotient"""
     return a/b
